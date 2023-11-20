@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF=8">
+    <link rel="stylesheet" href="bus_info.css">
+    <title>버스위치 정보</title>
+</head>
+<body>
+    <div class="Main_container" >
+      <h1>서울 버스 위치 정보조회 api 활용<br><br>2019036057박운용</h1>
+      <div class="container1">
+        <h2>버스의 정보</h2>
+        <div class = "sub_container">
+          <label for="vehID">버스 id:</label>
+          <input type="text" id="vehID" name="vehID" />
+          <button id="fetchDataBtn">데이터 조회</button>
+        </div>
+  
+        <p>버스이름: <span id="bus_id">입력 하세요</span></p>
+        <p>버스 종류: <span id="bus_info">입력 하세요</span></p>
+        <p>혼잡 상태: <span id="bus_cong">입력 하세요</span></p>
+      </div>
+  
+    </div>
+    <script src="bus_info.js"></script> <!-- 위에서 작성한 JS 코드를 포함하는 파일로 교체 -->
+    <script>
+      fetchbusData(); // 페이지 로드 시 데이터를 가져옵니다.
+    </script>
+</body>

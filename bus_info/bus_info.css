@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: 'AcBold';
+    src: url('../나눔스퀘어/NanumFontSetup_TTF_SQUARE/NanumSquare_acB.ttf') format('truetype');
+    
+  }
+  
+  @font-face {
+    font-family: 'Light';
+    src: url('../나눔스퀘어/NanumFontSetup_TTF_SQUARE/NanumSquareL.ttf') format('truetype');
+  }
+
+
+body{
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+
+
+.Main_container{
+    background-color: white;
+    /* padding: 300px; */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 40%;
+    height: 500px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.container1{
+
+    background-color: white;
+    padding : 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0.2, 0.2, 0.2, 0.2),0 2px 6px rgba(30, 200, 0, 0.3);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+   
+}
+
+.container1 p {
+    font-family: 'AcBold', sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 22px;
+    color: #6a6a6a;
+}
+
+h1 {
+    
+    font-family: 'AcBold', sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    color: #6a6a6a;
+
+  }
+
+h2 {
+    
+    font-family: 'AcBold', sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 34px;
+  }
+
+.container2{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0.2, 0.2, 0.2, 0.2),0 2px 6px rgba(30, 200, 0, 0.3);
+    width:370px;
+    height: 150px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.sub_container{
+    font-family: 'AcBold', sans-serif;
+    text-align: center;
+    color: #6a6a6a;
+}
+
+.container2 p {
+    font-family: 'AcBold', sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 24px;
+    color: #6a6a6a;
+}
+
